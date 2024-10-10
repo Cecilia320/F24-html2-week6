@@ -3,300 +3,300 @@
 	License: none (public domain)
 */
 
-	html,body,div,span,applet,object,iframe,
-	h1,h2,h3,h4,h5,h6,p,blockquote,pre,
-	a,abbr,acronym,address,big,cite,code,
-	del,dfn,em,img,ins,kbd,q,s,samp,
-	small,strike,strong,sub,sup,tt,var,
-	b,u,i,center,
-	dl,dt,dd,ol,ul,li,
-	fieldset,form,label,legend,
-	table,caption,tbody,tfoot,thead,tr,th,td,
-	article,aside,canvas,details,embed,
-	figure,figcaption,footer,header,hgroup,
-	menu,nav,output,ruby,section,summary,
-	time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
-	
-	/* HTML5 display-role reset for older browsers */
-	article,aside,details,figcaption,figure,
-	footer,header,hgroup,menu,nav,section{display:block;}
-	body{line-height:1;}
-	ol,ul{list-style:none;}
-	blockquote,q{quotes:none;}
-	blockquote:before,blockquote:after,
-	q:before,q:after{content:'';content:none;}
-	table{border-collapse:collapse;border-spacing:0;}
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,embed,
+figure,figcaption,footer,header,hgroup,
+menu,nav,output,ruby,section,summary,
+time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{display:block;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,
+q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
 
 /********************************
-			Fonts
+		Fonts
 *********************************/
 
 @font-face {
-    font-family: 'JungleFeverRegular';
-    src: url('../fonts/JungleFever-webfont.eot');
-    src: url('../fonts/JungleFever-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/JungleFever-webfont.woff') format('woff'),
-         url('../fonts/JungleFever-webfont.ttf') format('truetype'),
-         url('../fonts/JungleFever-webfont.svg#JungleFeverRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+font-family: 'JungleFeverRegular';
+src: url('../fonts/JungleFever-webfont.eot');
+src: url('../fonts/JungleFever-webfont.eot?#iefix') format('embedded-opentype'),
+	 url('../fonts/JungleFever-webfont.woff') format('woff'),
+	 url('../fonts/JungleFever-webfont.ttf') format('truetype'),
+	 url('../fonts/JungleFever-webfont.svg#JungleFeverRegular') format('svg');
+font-weight: normal;
+font-style: normal;
 }
 
 
 /********************************
-			Main
+		Main
 *********************************/
 
 body{
-	background-color: #186b08;
-	font-family:Tahoma, Geneva, sans-serif;
+background-color: #186b08;
+font-family:Tahoma, Geneva, sans-serif;
 }
 
 header{
-	text-align:center;
+text-align:center;
 }
 
 header h1{
-	font-family:'JungleFeverRegular', 'Impact', Tahoma, Geneva, sans-serif;
-	font-size:70px;
+font-family:'JungleFeverRegular', 'Impact', Tahoma, Geneva, sans-serif;
+font-size:70px;
 }
 
 header h2{
-	font-family:'JungleFeverRegular', 'Impact', Tahoma, Geneva, sans-serif;
-	font-size:30px;
+font-family:'JungleFeverRegular', 'Impact', Tahoma, Geneva, sans-serif;
+font-size:30px;
 }
 
 footer{
-	font-size:16px;
-	color:white;
-	padding:10px 0 5px;
-	margin-bottom:40px;
-	text-align:center;
+font-size:16px;
+color:white;
+padding:10px 0 5px;
+margin-bottom:40px;
+text-align:center;
 }
 
 /********************************
-	Special (added in class)
+Special (added in class)
 ********************************/
 
 /* Default button styling */
 .doomsday-btn {
-	font-family: 'Arial', sans-serif;
-	font-size: 20px;
-	padding: 15px 30px;
-	background-color: red;
-	color: white;
-	border: none;
-	border-radius: 10px;
-	cursor: pointer;
-	position: relative;
-	overflow: hidden;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	animation: default-pulse 2s infinite; 
-	transition: all 0.3s ease;
-  }
-  
-  
-  @keyframes default-pulse {
-	0% {
-	  transform: scale(1);
-	  box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
-	}
-	50% {
-	  transform: scale(1.05);
-	  box-shadow: 0 0 30px rgba(255, 0, 0, 1);
-	}
-	100% {
-	  transform: scale(1);
-	  box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
-	}
-  }
-  
-  .doomsday-btn {
-	font-family: 'Arial', sans-serif;
-	font-size: 20px;
-	padding: 15px 30px;
-	background-color: red;
-	color: white;
-	border: none;
-	border-radius: 10px;
-	cursor: pointer;
-	position: relative;
-	overflow: hidden;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	animation: default-pulse 2s infinite; 
-	transition: all 0.3s ease;
-  }
-  
+font-family: 'Arial', sans-serif;
+font-size: 20px;
+padding: 15px 30px;
+background-color: red;
+color: white;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+position: relative;
+overflow: hidden;
+text-transform: uppercase;
+letter-spacing: 1px;
+animation: default-pulse 2s infinite; 
+transition: all 0.3s ease;
+}
 
-  .doomsday-btn:hover {
-	animation: hover-twitch 0.5s infinite; 
-  }
-  
-  
-  @keyframes hover-twitch {
-	0% {
-	  transform: translate(0, 0);
-	  background-color: red;
-	  box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
-	}
-	25% {
-	  transform: translate(-2px, 2px);
-	  background-color: yellow;
-	  box-shadow: 0 0 20px rgba(255, 255, 0, 1);
-	}
-	50% {
-	  transform: translate(2px, -2px);
-	  background-color: red;
-	  box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
-	}
-	75% {
-	  transform: translate(-2px, -2px);
-	  background-color: yellow;
-	  box-shadow: 0 0 20px rgba(255, 255, 0, 1);
-	}
-	100% {
-	  transform: translate(2px, 2px);
-	  background-color: red;
-	  box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
-	}
-  }
- 
-  
-  .doomsday {
-	animation-name: vibrate;
-	animation-duration: .5s;
-	animation-delay: .5s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-	
-  }
-  
-  .doomsday:before {
-	content: "DANGER";
-	font-size: 40px;
-	color: white;
-  }
-  
-  
-  .doomsday:hover {
-	  animation-name: teste;
-	  transform: scale(2.2);
-	  animation-iteration-count: infinite;
-	  animation-fill-mode: forwards;
-  }
-  
-  .doomsday:active {
-	animation-name: pressed;
-	transition: 5s;
-  }
-  
-  .doomsday {
-	animation-name: vibrate;
-	animation-duration: .5s;
-	animation-delay: .5s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-	
-  }
-  
-  .doomsday:before {
-	content: "DANGER";
-	font-size: 40px;
-	color: white;
-  }
-  
-  
-  .doomsday:hover {
-	  animation-name: teste;
-	  transform: scale(2.2);
-	  animation-iteration-count: infinite;
-	  animation-fill-mode: forwards;
-  }
-  
-  .doomsday:active {
-	animation-name: pressed;
-	transition: 5s;
-  }
-  
-  /*-- significantly different --*/
-  
-  @keyframes pressed {
-	0%{
-	  transform: scale(.5);
-	}
-	40% {
-	  transform: scale(2);
-	}
-	80% {
-	  transform: scale(.5);
-	}
-	100% {
-	  transform: scale(0);
-	}
-  }
-  
-  @keyframes teste {
-	0%{
-	  opacity: 100%;
-	}
-	
-	20%{
-	  opacity: 50%;
-	}
-	
-	40%{
-	  opacity: 0%;
-	}
-	60%{
-	  opacity: 100%;
-	}
-	
-	80%{
-	  opacity: 50%;
-	}
-	
-	100%{
-	  opacity: 0;
-	}
-  }
-  
-  @keyframes vibrate {
-	0%{
-	  transform: translate(0);}
-	
-	10% {
-	  transform: translate(2px, -2px);
-	}
-	
-	20% {
-	  transform: translate(-5px, 2px);
-	}
-	
-	30% {
-	  transform: translate(5px, -2px);
-	}
-	40% {
-	  transform: translate(-2px, 5px);
-	}
-	
-	50% {
-	  transform: translate(2px, -5px);
-	}
-	60% {
-	  transform: translate(-5px, 2px);
-	}
-	
-	70% {
-	  transform: translate(5px, -2px);
-	}
-	
-	80% {
-	  transform: translate(-2px, 5px);
-	}
-	
-	90% {
-	  transform: translate(2px, -5px);
-	}
-  }
+
+@keyframes default-pulse {
+0% {
+  transform: scale(1);
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+}
+50% {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(255, 0, 0, 1);
+}
+100% {
+  transform: scale(1);
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+}
+}
+
+.doomsday-btn {
+font-family: 'Arial', sans-serif;
+font-size: 20px;
+padding: 15px 30px;
+background-color: red;
+color: white;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+position: relative;
+overflow: hidden;
+text-transform: uppercase;
+letter-spacing: 1px;
+animation: default-pulse 2s infinite; 
+transition: all 0.3s ease;
+}
+
+
+.doomsday-btn:hover {
+animation: hover-twitch 0.5s infinite; 
+}
+
+
+@keyframes hover-twitch {
+0% {
+  transform: translate(0, 0);
+  background-color: red;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+25% {
+  transform: translate(-2px, 2px);
+  background-color: yellow;
+  box-shadow: 0 0 20px rgba(255, 255, 0, 1);
+}
+50% {
+  transform: translate(2px, -2px);
+  background-color: red;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+75% {
+  transform: translate(-2px, -2px);
+  background-color: yellow;
+  box-shadow: 0 0 20px rgba(255, 255, 0, 1);
+}
+100% {
+  transform: translate(2px, 2px);
+  background-color: red;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+}
+
+
+.doomsday {
+animation-name: vibrate;
+animation-duration: .5s;
+animation-delay: .5s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+
+}
+
+.doomsday:before {
+content: "DANGER";
+font-size: 40px;
+color: white;
+}
+
+
+.doomsday:hover {
+  animation-name: teste;
+  transform: scale(2.2);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.doomsday:active {
+animation-name: pressed;
+transition: 5s;
+}
+
+.doomsday {
+animation-name: vibrate;
+animation-duration: .5s;
+animation-delay: .5s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+
+}
+
+.doomsday:before {
+content: "DANGER";
+font-size: 40px;
+color: white;
+}
+
+
+.doomsday:hover {
+  animation-name: teste;
+  transform: scale(2.2);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.doomsday:active {
+animation-name: pressed;
+transition: 5s;
+}
+
+/*-- significantly different --*/
+
+@keyframes pressed {
+0%{
+  transform: scale(.5);
+}
+40% {
+  transform: scale(2);
+}
+80% {
+  transform: scale(.5);
+}
+100% {
+  transform: scale(0);
+}
+}
+
+@keyframes teste {
+0%{
+  opacity: 100%;
+}
+
+20%{
+  opacity: 50%;
+}
+
+40%{
+  opacity: 0%;
+}
+60%{
+  opacity: 100%;
+}
+
+80%{
+  opacity: 50%;
+}
+
+100%{
+  opacity: 0;
+}
+}
+
+@keyframes vibrate {
+0%{
+  transform: translate(0);}
+
+10% {
+  transform: translate(2px, -2px);
+}
+
+20% {
+  transform: translate(-5px, 2px);
+}
+
+30% {
+  transform: translate(5px, -2px);
+}
+40% {
+  transform: translate(-2px, 5px);
+}
+
+50% {
+  transform: translate(2px, -5px);
+}
+60% {
+  transform: translate(-5px, 2px);
+}
+
+70% {
+  transform: translate(5px, -2px);
+}
+
+80% {
+  transform: translate(-2px, 5px);
+}
+
+90% {
+  transform: translate(2px, -5px);
+}
+}
